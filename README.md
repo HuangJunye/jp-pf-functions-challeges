@@ -1,1 +1,1 @@
-# qdc-challenges-2025
+# QDC 2025 Challenge README
