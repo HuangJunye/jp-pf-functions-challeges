@@ -2,7 +2,6 @@
 
 ## Step 0: Create your IBM Cloud account.
 If you haven't done so already, set up your IBM Cloud account by following the instructions [here](https://quantum.cloud.ibm.com/docs/en/guides/cloud-setup).
-(NOTE — if there are going to be specific instructions for the contestants to use a particular instance, please place those details here and then remove this note!)
 
 ## Step 1: Clone repository.
 
@@ -10,9 +9,9 @@ In your terminal, navigate to a folder where you would like to place the QDC 202
 ```
 cd </path/to/your/folder>
 ```
-Then, clone the repository by running: (NOTE — please update the line below to reflect the correct repo URL once the participant version exists, and then remove this note!)
+Then, clone the repository by running:
 ```
-git clone https://github.ibm.com/ibm-q-research/qdc2025-challenges.git
+git clone https://github.com/qiskit-community/qdc-challenges-2025.git
 ```
 
 ## Step 2: Create virtual environment.
@@ -26,9 +25,9 @@ to create and activate a new virtual environment named **`qdc2025-venv`**.
 
 ## Step 3: Install required packages.
 
-Finally, install the required packages by running the following line in your open terminal: (NOTE — please update the line below to reflect the correct repo name once the participant version exists, and then remove this note!)
+Finally, install the required packages by running the following line in your open terminal:
 ```
-cd qdc2025-challenges
+cd qdc-challenges-2025
 pip install -r requirements.txt
 ```
 Note that some challenges use `graphviz` for plotting, which needs to be installed on your machine independently of Python environment. If you do not have `graphviz` on your machine, please follow instructions [here](https://graphviz.org/download/). 
