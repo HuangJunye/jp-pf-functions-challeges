@@ -1,56 +1,58 @@
 # QDC Challenges Pre-Work Packet
 
+To aid you in working through the challenges, we've prepared this directory of information on features, tools, and other resources which might be relevant for you. Each section contains a summary of the feature/tool and links out to the relevant documentation pages to make finding the information you need as simple as possible.
+
 ## Table of Contents
 
 ### [1. Tools for Mapping](#tools-related-to-mapping)
 
-- *AQC-Tensor* - A Qiskit addon for building time evolution circuits
-- *Qiskit Circuit Library* - The Qiskit SDK’s standard library of gates and circuit instructions
-- *Optimization Mapper* - A Qiskit addon for mapping optimization problems to circuits and operators
-- *Quantum Optimization Best Practices* - A collection of guidelines to run quantum optimization workloads
+- [*AQC-Tensor*](#aqc-tensor) - A Qiskit addon for building time evolution circuits
+- [*Qiskit Circuit Library*](#qiskit-circuit-library) - The Qiskit SDK’s standard library of gates and circuit instructions
+- [*Optimization Mapper*](#optimization-mapper) - A Qiskit addon for mapping optimization problems to circuits and operators
+- [*Quantum Optimization Best Practices*](#quantum-optimization-best-practices) - A collection of guidelines to run quantum optimization workloads
 
 ### [2. Tools for Preparing & Optimizing Quantum Workloads](#tools-for-preparing--optimizing-quantum-workloads)
 
-- *Transpiler* - Translate circuit instructions to execute on quantum hardware, with options for efficient layout and routing
-- *Dynamic Circuits* - Perform certain tasks, such as long range entanglement and state preparation, at constant depth
-- *Dynamical Decoupling* - Reduce decoherence errors on idle qubits
-- *Operator Backpropagation* - Reduce circuit depth by trimming operations at the cost of increased measurements
+- [*Transpiler*](#transpiler) - Translate circuit instructions to execute on quantum hardware, with options for efficient layout and routing
+- [*Dynamic Circuits*](#dynamic-circuits) - Perform certain tasks, such as long range entanglement and state preparation, at constant depth
+- [*Dynamical Decoupling*](#dynamical-decoupling) - Reduce decoherence errors on idle qubits
+- [*Operator Backpropagation*](#operator-backpropagation) - Reduce circuit depth by trimming operations at the cost of increased measurements
 
 ### [3. Tools for Debugging & Validating Workloads](#tools-for-debugging-and-validating-workloads)
 
-- *Noisy Estimator Analyzer Tool* - Gauge the expected performance of quantum workloads
-- *Local Testing Mode* - Simulate smaller or Cliffordized circuits to assess performance
+- [*Noisy Estimator Analyzer Tool*](#noisy-estimator-analyzer-tool) - Gauge the expected performance of quantum workloads
+- [*Local Testing Mode*](#local-testing-mode) - Simulate smaller or Cliffordized circuits to assess performance
 
 
 ### [4. Tools for Executing Workloads](#4-tools-for-executing-workloads)
-- *Estimator & Sampler Primitives* - Handles hardware execution and returns samples or expectation values, with some built-in error suppression/mitigation support
-- *Execution Modes* - Efficiently schedule workload execution
-- *Executor Primitive* - Generate and execute circuit variants based on input samplex directive
+- [*Estimator & Sampler Primitives*](#estimator--sampler-primitives) - Handles hardware execution and returns samples or expectation values, with some built-in error suppression/mitigation support
+- [*Execution Modes*](#execution-modes) - Efficiently schedule workload execution
+- [*Executor Primitive*](#executor-primitive) - Generate and execute circuit variants based on input samplex directive
 
 ### [5. Tools for Error Mitigation](#tools-for-error-mitigation)
 
-- *Samplomatic* - Fine tune error mitigation in specific circuit regions
-- *Noise Learner* - Learn and return the sparse Pauli-Lindblad noise model, which can be used for error mitigation methods like PEA, PEC, and PNA
-- *Pauli Twirling* - Covert coherent noise to better characterized stochastic noise
-- *Matrix-Free Measurement Mitigation* - Reduce measurement errors
-- *Probabilistic Error Cancellation* - Mitigate errors by statistically canceling noise, which generally returns an unbiased expectation value at the expense of greater overhead
-- *Zero Noise Extrapolation* - Mitigate errors by amplifying noise and extrapolating corrected expectation values
-- *Twirled Readout Error Extinction* - Reduce measurement error via twirling
-- *Propagated Noise Absorption* - Characterize and propagate the effects of noise into an observable
-- *Shaded Light Cones* - Reduce the overhead of PEC error mitigation
+- [*Samplomatic*](#samplomatic) - Fine tune error mitigation in specific circuit regions
+- [*Noise Learner*](#noise-learner) - Learn and return the sparse Pauli-Lindblad noise model, which can be used for error mitigation methods like PEA, PEC, and PNA
+- [*Pauli Twirling*](#pauli-twirling) - Covert coherent noise to better characterized stochastic noise
+- [*Matrix-Free Measurement Mitigation*](#matrix-free-measurement-mitigation) - Reduce measurement errors
+- [*Probabilistic Error Cancellation*](#probabilistic-error-cancellation) - Mitigate errors by statistically canceling noise, which generally returns an unbiased expectation value at the expense of greater overhead
+- [*Zero Noise Extrapolation*](#zero-noise-extrapolation-zne) - Mitigate errors by amplifying noise and extrapolating corrected expectation values
+- [*Twirled Readout Error Extinction*](#twirled-readout-error-extinction-trex) - Reduce measurement error via twirling
+- [*Propagated Noise Absorption*](#propagated-noise-absorption) - Characterize and propagate the effects of noise into an observable
+- [*Shaded Light Cones*](#shaded-light-cones) - Reduce the overhead of PEC error mitigation
 
 ### [6. Tools for Post-Processing](#tools-for-post-processing)
 
-- *Sample Based Quantum Diagonalization* - Post-process samples to refine results in simulation workloads
-- *Multi-Product Formulas* - Refine expectation values in workloads simulating time evolution
-- *Measurement Post-Selection* - Refine samples by post-selecting known “bad” bitstrings
+- [*Sample Based Quantum Diagonalization*](#sample-based-quantum-diagonalization) - Post-process samples to refine results in simulation workloads
+- [*Multi-Product Formulas*](#multi-product-formulas) - Refine expectation values in workloads simulating time evolution
+- [*Measurement Post-Selection*](#measurement-post-selection) - Refine samples by post-selecting known “bad” bitstrings
 
 
 ### [7. Qiskit Functions](#qiskit-functions-pre-built-workflows-to-speed-up-applications-research)
-- *Algorithmiq Tensor-Network Error Mitigation Function*
-- *Q-CTRL Performance Management Function*
-- *QEDMA Qiskit Function QESEM*
-- *Q-CTRL Optimization Solver*
+- [*Algorithmiq Tensor-Network Error Mitigation Function*](#algorithmiq-tensor-network-error-mitigation-function)
+- [*Q-CTRL Performance Management Function*](#q-ctrl-performance-management-function)
+- [*QEDMA Qiskit Function QESEM*](#qedma-qiskit-function-qesem)
+- [*Q-CTRL Optimization Solver*](#q-ctrl-optimization-solver)
 
 
 
@@ -331,7 +333,7 @@ This Qiskit addon allows you to implement a post-processing technique to measure
 - [Tutorial using SQD for a chemistry Hamiltonian](https://quantum.cloud.ibm.com/docs/en/tutorials/sample-based-quantum-diagonalization)
 - [Tutorial using SQD and KQD for a lattice model](https://quantum.cloud.ibm.com/docs/en/tutorials/sample-based-krylov-quantum-diagonalization)
 
-## Muti-Product Formulas
+## Multi-Product Formulas
 
 The MPF Qiskit addon is primarily used to post-process workloads seeking to simulate the time evolution of a quantum system. The MPF tool will ingest data such as the number of Trotter steps to prepare and solve an associated system of linear equations, which can then be used to refine the expectation-value measurements of a time-evolved state.
 
