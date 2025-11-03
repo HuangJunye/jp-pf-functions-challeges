@@ -39,8 +39,8 @@ print(f">>>>> RUNNING AVAS")
 print(f">>>>> STARTING CASCI")
 # You must complete this coding section
 
-
-print(f">>>>> CASCI_E: {}")
+CASCI_E = None
+print(f">>>>> CASCI_E: {CASCI_E}")
 
 o_data = JSONEncoder().encode([CASCI_E])
 
