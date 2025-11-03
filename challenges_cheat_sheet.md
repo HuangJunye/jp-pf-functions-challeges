@@ -4,57 +4,59 @@
 
 ### [1. Tools for Mapping](#tools-related-to-mapping)
 
-- AQC-Tensor - A Qiskit addon for building time evolution circuits
-- Qiskit Circuit Library - The Qiskit SDK’s standard library of gates and circuit instructions
-- Optimization Mapper - A Qiskit addon for mapping optimization problems to circuits and operators
-- Quantum Optimization Best Practices - A collection of guidelines to run quantum optimization workloads
+- *AQC-Tensor* - A Qiskit addon for building time evolution circuits
+- *Qiskit Circuit Library* - The Qiskit SDK’s standard library of gates and circuit instructions
+- *Optimization Mapper* - A Qiskit addon for mapping optimization problems to circuits and operators
+- *Quantum Optimization Best Practices* - A collection of guidelines to run quantum optimization workloads
 
 ### [2. Tools for Preparing & Optimizing Quantum Workloads](#tools-for-preparing--optimizing-quantum-workloads)
 
-- Transpiler - Translate circuit instructions to execute on quantum hardware, with options for efficient layout and routing
-- Dynamic Circuits - Perform certain tasks, such as long range entanglement and state preparation, at constant depth
-- Dynamical Decoupling - Reduce decoherence errors on idle qubits
-- Operator Backpropagation - Reduce circuit depth by trimming operations at the cost of increased measurements
+- *Transpiler* - Translate circuit instructions to execute on quantum hardware, with options for efficient layout and routing
+- *Dynamic Circuits* - Perform certain tasks, such as long range entanglement and state preparation, at constant depth
+- *Dynamical Decoupling* - Reduce decoherence errors on idle qubits
+- *Operator Backpropagation* - Reduce circuit depth by trimming operations at the cost of increased measurements
 
 ### [3. Tools for Debugging & Validating Workloads](#tools-for-debugging-and-validating-workloads)
 
-- Noisy Estimator Analyzer Tool - Gauge the expected performance of quantum workloads
-- Local Testing Mode - Simulate smaller or Cliffordized circuits to assess performance
-- Tools for Executing Workloads
-- Estimator & Sampler Primitives - Handles hardware execution and returns samples or expectation values, with some built-in error suppression/mitigation support
-- Execution Modes - Efficiently schedule workload execution
-- Executor Primitive - Generate and execute circuit variants based on input samplex directive
-
-### [4. Tools for Error Mitigation](#tools-for-error-mitigation)
-
-- Samplomatic - Fine tune error mitigation in specific circuit regions
-- Noise Learner - Learn and return the sparse Pauli-Lindblad noise model, which can be used for error mitigation methods like PEA, PEC, and PNA
-- Pauli Twirling - Covert coherent noise to better characterized stochastic noise
-- Matrix-Free Measurement Mitigation - Reduce measurement errors
-- Probabilistic Error Cancellation - Mitigate errors by statistically canceling noise, which generally returns an unbiased expectation value at the expense of greater overhead
-- Zero Noise Extrapolation - Mitigate errors by amplifying noise and extrapolating corrected expectation values
-- Twirled Readout Error Extinction - Reduce measurement error via twirling
-- Propagated Noise Absorption - Characterize and propagate the effects of noise into an observable
-- Shaded Light Cones - Reduce the overhead of PEC error mitigation
-
-### [5. Tools for Post-Processing](#tools-for-post-processing)
-
-- Sample Based Quantum Diagonalization - Post-process samples to refine results in simulation workloads
-- Multi-Product Formulas - Refine expectation values in workloads simulating time evolution
-- Measurement Post-Selection - Refine samples by post-selecting known “bad” bitstrings
+- *Noisy Estimator Analyzer Tool* - Gauge the expected performance of quantum workloads
+- *Local Testing Mode* - Simulate smaller or Cliffordized circuits to assess performance
 
 
-### [6. Qiskit Functions](#qiskit-functions-pre-built-workflows-to-speed-up-applications-research)
-- Algorithmiq Tensor-Network Error Mitigation Function
-- Q-CTRL Performance Management Function
-- QEDMA Qiskit Function QESEM
-- Q-CTRL Optimization Solver
+### [4. Tools for Executing Workloads](#4-tools-for-executing-workloads)
+- *Estimator & Sampler Primitives* - Handles hardware execution and returns samples or expectation values, with some built-in error suppression/mitigation support
+- *Execution Modes* - Efficiently schedule workload execution
+- *Executor Primitive* - Generate and execute circuit variants based on input samplex directive
+
+### [5. Tools for Error Mitigation](#tools-for-error-mitigation)
+
+- *Samplomatic* - Fine tune error mitigation in specific circuit regions
+- *Noise Learner* - Learn and return the sparse Pauli-Lindblad noise model, which can be used for error mitigation methods like PEA, PEC, and PNA
+- *Pauli Twirling* - Covert coherent noise to better characterized stochastic noise
+- *Matrix-Free Measurement Mitigation* - Reduce measurement errors
+- *Probabilistic Error Cancellation* - Mitigate errors by statistically canceling noise, which generally returns an unbiased expectation value at the expense of greater overhead
+- *Zero Noise Extrapolation* - Mitigate errors by amplifying noise and extrapolating corrected expectation values
+- *Twirled Readout Error Extinction* - Reduce measurement error via twirling
+- *Propagated Noise Absorption* - Characterize and propagate the effects of noise into an observable
+- *Shaded Light Cones* - Reduce the overhead of PEC error mitigation
+
+### [6. Tools for Post-Processing](#tools-for-post-processing)
+
+- *Sample Based Quantum Diagonalization* - Post-process samples to refine results in simulation workloads
+- *Multi-Product Formulas* - Refine expectation values in workloads simulating time evolution
+- *Measurement Post-Selection* - Refine samples by post-selecting known “bad” bitstrings
+
+
+### [7. Qiskit Functions](#qiskit-functions-pre-built-workflows-to-speed-up-applications-research)
+- *Algorithmiq Tensor-Network Error Mitigation Function*
+- *Q-CTRL Performance Management Function*
+- *QEDMA Qiskit Function QESEM*
+- *Q-CTRL Optimization Solver*
 
 
 
 ---
 
-# 1. Tools Related to Mapping
+# Tools Related to Mapping
 
 ## AQC-Tensor
 
