@@ -9,14 +9,14 @@
 - Optimization Mapper - A Qiskit addon for mapping optimization problems to circuits and operators
 - Quantum Optimization Best Practices - A collection of guidelines to run quantum optimization workloads
 
-### 2. Tools for Preparing & Optimizing Quantum Workloads
+### [2. Tools for Preparing & Optimizing Quantum Workloads](#tools-for-preparing--optimizing-quantum-workloads)
 
 - Transpiler - Translate circuit instructions to execute on quantum hardware, with options for efficient layout and routing
 - Dynamic Circuits - Perform certain tasks, such as long range entanglement and state preparation, at constant depth
 - Dynamical Decoupling - Reduce decoherence errors on idle qubits
 - Operator Backpropagation - Reduce circuit depth by trimming operations at the cost of increased measurements
 
-### Tools for Debugging & Validating Workloads
+### [3. Tools for Debugging & Validating Workloads](#tools-for-debugging-and-validating-workloads)
 
 - Noisy Estimator Analyzer Tool - Gauge the expected performance of quantum workloads
 - Local Testing Mode - Simulate smaller or Cliffordized circuits to assess performance
@@ -25,7 +25,7 @@
 - Execution Modes - Efficiently schedule workload execution
 - Executor Primitive - Generate and execute circuit variants based on input samplex directive
 
-### Tools for Error Mitigation
+### [4. Tools for Error Mitigation](#tools-for-error-mitigation)
 
 - Samplomatic - Fine tune error mitigation in specific circuit regions
 - Noise Learner - Learn and return the sparse Pauli-Lindblad noise model, which can be used for error mitigation methods like PEA, PEC, and PNA
@@ -37,19 +37,19 @@
 - Propagated Noise Absorption - Characterize and propagate the effects of noise into an observable
 - Shaded Light Cones - Reduce the overhead of PEC error mitigation
 
-### Tools for Post-Processing
+### [5. Tools for Post-Processing](#tools-for-post-processing)
 
 - Sample Based Quantum Diagonalization - Post-process samples to refine results in simulation workloads
 - Multi-Product Formulas - Refine expectation values in workloads simulating time evolution
 - Measurement Post-Selection - Refine samples by post-selecting known “bad” bitstrings
-- Qiskit Functions (pre-built workflows to speed up applications research)
-- Circuit Functions (handle transpilation, error suppression, and error mitigation)
-- Algorithmiq Tensor-Network Error Mitigation - Circuit function to automate error mitigation
-- Q-CTRL Fire Opal - Circuit function to perform AI-powered error mitigation on workloads
-- QEDMA QESEM - Circuit function to automate a suite of error suppression and mitigation techniques on workloads
-- Application Functions — Optimization (handle mapping QUBOs to circuits, running the entire execution workflow, to return optimal bitstrings)
-- Iskay Quantum Optimizer - Application function to solve optimization problems with a QUBO input
-- Q-CTRL Optimization Solver - Application function to solve optimization problems with a QUBO input
+
+
+### [6. Qiskit Functions](#qiskit-functions-pre-built-workflows-to-speed-up-applications-research)
+- Algorithmiq Tensor-Network Error Mitigation Function
+- Q-CTRL Performance Management Function
+- QEDMA Qiskit Function QESEM
+- Q-CTRL Optimization Solver
+
 
 
 ---
@@ -378,7 +378,7 @@ The QESEM Qiskit Functioon by QEDMA uses a suite of proprietary error mitigation
 *Relevant docs links:*
 
 - [Overview of QESEM Function](https://quantum.cloud.ibm.com/docs/en/guides/kipu-optimization)
-- [Tutorial for QESEM coming soon... 
+- [Tutorial for QESEM coming soon...]
 
 ## Iskay Quantum Optimizer
 
@@ -387,7 +387,7 @@ This Qiskit Function by Kipu Quantum solves unconstrained binary optimization pr
 *Relevant docs links:*
 
 - [Overview of Iskay Quantum Function](https://quantum.cloud.ibm.com/docs/en/guides/kipu-optimization)
-- [Tutorial for Iskay coming soon...
+- [Tutorial for Iskay coming soon...]
 
 ## Q-CTRL Optimization Solver
 
