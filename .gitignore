@@ -1,0 +1,78 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+*.manifest
+*.spec
+*.log
+
+# Virtual environments
+.venv/
+.qdc2025-venv/
+qdc2025-venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.python-version
+.DS_Store
+
+# IDEs and editors
+.vscode/
+.idea/
+.spyproject/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook
+.ipynb_checkpoints
+**/.ipynb_checkpoints/
+# Automatically generated notebook outputs
+**/*.nbconvert.ipynb
+# Jupyter metadata or autosaves
+*.bak
+*.swp
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and caches
+*.log
+*.out
+*.err
+*.pid
+*.gz
+.cache/
+*.pytest_cache/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment / dependency files
+.env
+.env.*
+*.env
+*.yml
+*.yaml
+*.toml
+
+# Poetry
+poetry.lock
+# Pipenv
+Pipfile.lock
+# Conda
+*.conda
+*.conda-build/
