@@ -4,7 +4,7 @@ Welcome to the IBM Quantum Developer Conference 2025! These challenges are desig
 
 ## Installation and Setup
 
-To participate, please complete the setup instructions outlined in the [INSTALL.md](./INSTALL.md) file of this repository.
+To participate, please complete the setup instructions outlined in the [INSTALL.md](./INSTALL.md) file of this repository. Remember to bring a laptop with internet access, as no devices will be provided at the venue.
 
 ## Challenge Notebooks
 
