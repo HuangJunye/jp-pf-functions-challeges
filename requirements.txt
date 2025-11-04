@@ -16,5 +16,5 @@ ipykernel==7.0.1
 jupyter==1.1.1
 qopt-best-practices @ git+https://github.com/qiskit-community/qopt-best-practices@65013e56ad67475ea176ab892b656ade6c311bea
 qaoa_training_pipeline @ git+https://github.com/qiskit-community/qaoa_training_pipeline@ab7eaea1b4be5c6ea72fd4fa14dc35aa2aaebd7a
-qiskit-addon-opt-mapper @ git+https://github.com/Qiskit/qiskit-addon-opt-mapper@37a864ef3fcfe7c62340f5f45be9940487b37e7c
+qiskit-addon-opt-mapper==0.1.0
 qc-grader @ git+https://github.com/qiskit-community/Quantum-Challenge-Grader.git
