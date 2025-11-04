@@ -8,8 +8,7 @@ To participate, please complete the setup instructions outlined in the [INSTALL.
 
 ## Challenge Notebooks
 
-Each day, the challenge notebooks will be available in their respective "Day" folders within the GitHub repository. **Please download the notebooks for each day, open them, and run them to proceed with the challenges.**
-
+The challenge notebooks are available in their respective "Track" folders within the GitHub repository.
 
 ## Challenges Topics
 
