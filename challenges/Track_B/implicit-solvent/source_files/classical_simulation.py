@@ -9,12 +9,6 @@ from pyscf import gto, scf
 from pyscf.solvent import pcm
 from pyscf.mcscf import avas 
 
-import psutil
-
-mem_info = psutil.virtual_memory() # Get information about virtual memory (RAM)
-total_ram_gb = mem_info.total / (1024**3)  # Convert bytes to GB
-print(f">>>>> SERVERLESS TOTAL RAM: {total_ram_gb:.2f} GB")
-
 ### Argument retrieval
 args                      = get_arguments() 
 data                      = args["data"]      # Chemistry Data
