@@ -41,8 +41,7 @@ A live leaderboard will display the full ranking of all teams based on their aut
 In the event of a tie in scores, the participant or team who submitted their solution earlier will be ranked higher on the leaderboard.
 
 ### 3.4. Submission Deadlines
-- **Day 1 and Day 2 Challenges**: Submissions for these challenges must be completed by 12:30 pm on Day 3.
-- **Late submissions will not be accepted**.
+- All submissions for these challenges must be completed by 1:00 pm on Day 3. **Late submissions will not be accepted**.
 
 ### 3.5. Validation for Final Rankings
 The top submissions for each challenge will be reviewed by an expert panel to ensure compliance with the rules and to assess quality.
@@ -50,7 +49,7 @@ The top submissions for each challenge will be reviewed by an expert panel to en
 ## 4. Prizes
 
 ### 4.1. Challenge Winners
-The top participant or team for each challenge will receive a commemorative plaque recognizing their achievement.
+The top team for each challenge will receive a commemorative plaque recognizing their achievement.
 
 ### 4.2. Leaderboard Recognition
 The top-ranking participants or teams will be featured on the live leaderboard, gaining recognition for their performance.
@@ -60,7 +59,7 @@ The top-ranking participants or teams will be featured on the live leaderboard, 
 ### 5.1. Reasons for Disqualification
 Participants may be disqualified for:
 - Submitting plagiarized solutions.
-- Using unauthorized methods, such as classical brute-force algorithms.
+- Using unauthorized methods, such as classical brute-force algorithms. Acceptable submissions should be general and able to solve a similar problem with a different instance and should not rely on knowledge of the optimal solution.
 - Tampering with the auto-grader to falsely pass tests.
 - Violating the code of conduct, including cheating or tampering with others’ submissions.
 
