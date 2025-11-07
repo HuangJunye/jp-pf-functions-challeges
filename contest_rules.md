@@ -11,7 +11,7 @@ The contest is open to all registered participants of the IBM Quantum Developer 
 Participants must bring their own laptops to participate in the coding challenges. Access to IBM Quantum and Qiskit tools will be provided via the IBM Quantum platform.
 
 ### 1.3. Participation
-- All challenges are team-based, you will be assigned your team when you pick up your badge.
+- All challenges are team-based, teams will be assigned randomly and you'll be given more information during the Challenge introduction session. 
 - While these challenges are team based, participants must complete and submit their solutions individually.
 
 ### 1.4. Languages and Tools
